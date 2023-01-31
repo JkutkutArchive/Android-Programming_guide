@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AndroidProgramming_guide</string>
+    <string name="mn_exit_title">exit</string>
+    <string name="mn_java_title">Java</string>
+    <string name="mn_python_title">Python</string>
+    <string name="exit_confirmation_msg">Are you sure you want to exit?</string>
+    <string name="exit_confirmation_positive">Yes</string>
+    <string name="exit_confirmation_negative">No!!!!!!!</string>
+    <string name="btn_change_font_size_title">Change font size</string>
+    <string name="fragment_programming_example">Hello World!</string>
+    <string name="font_size_hint">Enter the font size</string>
+    <string name="confirm_txt">That\'s it!</string>
+    <string name="cancel_txt">No!! Cancel this!</string>
+    <string name="font_size_dialog_title">Change font size</string>
+    <string name="font_size_dialog_error">The size must be a number greater than 0.</string>
+
+    <string-array name="coding_keys">
+        <item>Java</item>
+        <item>Python</item>
+        <item>JavaScript</item>
+        <item>C</item>
+        <item>Rust</item>
+    </string-array>
+
+    <string-array name="coding_code">
+        <item>public class HelloWorld {\n\tpublic static void main(String args[]){\n\t\tSystem.out.println("¡Hola Mundo!");\n\t}\n}</item>
+        <item>#!/usr/bin/env python\n# -*- coding: utf-8 -*-\nprint("¡Hola mundo!")</item>
+        <item>console.log("¡Hola mundo!")</item>
+        <item>#include &lt;stdio.h&gt;\nint main(){\n\tprintf("¡Hola mundo!");\n\treturn 0;\n}</item>
+        <item>fn main() {\n\tprintln!("¡Hola mundo!");\n}</item>
+    </string-array>
+</resources>
